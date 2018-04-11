@@ -2,7 +2,7 @@ declare
   i number;
 begin
   -- a comment
-  select count(*)
+  select count(*) 
     into i
     from dual;
 end;
